@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.fundo {
+    background-image: linear-gradient(225deg, #e770e5 0, #d463df 25%, #be55d8 50%, #a748d1 75%, #913dcb 100%);
+    /* Define um fundo */
+    
+    height: 100vh;
+    /* Define a altura do elemento com a classe fundo como 100% da altura da tela  */
+    
+    color: white;
+    /* Define a cor do texto dentro do elemento como branca */
+    
+    font-family: 'Courier New', Courier, monospace;
+    /* Define a fonte do texto como  */
+    
+    text-align: center;
+    /* Alinha o texto dentro do elemento ao centro horizontalmente */
+}
+
+.calculadora {
+    margin-top: 2%;
+    /* Aplica uma margem  */
+    
+    position: absolute;
+    /* Define que o elemento será posicionado de forma absoluta em relação  */
+    
+    background-color: rgba(0, 0, 0, 0.8);
+   
+    top: 50%;
+    /* Posiciona o elemento centralizando na vertical */
+    
+    left: 50%;
+    /* Posiciona o elemento  centralizando horizontalmente */
+    
+    transform: translate(-50%, -50%);
+    /* é usada para ajustar o posicionamento do elemento, movendo para a esquerda */
+    
+    border-radius: 15px;
+    /* Aplica bordas arredondadas ao elemento,  */
+    
+    padding: 15px;
+    /* Aplica um preenchimento em todos os lados do elemento */
+
+
+
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(41, 121, 45);
+    border: none;
+    color: #fff;
+    
+}
+.botao:hover{
+    background-color: rgb(134, 168, 124);
+}
+#resultado{
+    background-color: white;
+    width: 211px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+
+}
